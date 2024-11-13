@@ -1,0 +1,163 @@
+#cuerpo{
+    background-color: rgb(255, 244, 235);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*HEADER*/
+header{
+    background: linear-gradient(rgba(255, 251, 244, 0.2), rgba(66, 0, 0, 0.75) ),
+    url(img/IMG_HEADER.jpg);
+
+    background-repeat:no-repeat;
+    background-size: 1400px;
+    background-position:center;
+
+}
+/*HEADER*/
+    
+
+/*ASIDE*/
+.Aside_1{
+    float: left;
+
+    width: 200px;
+
+    background-color: rgb(255, 255, 255);
+
+    margin-top: 1%;
+    margin-right: 1px;
+    margin-left: 1%;
+
+    border-radius: 4px;
+
+    box-shadow: 1px 1px 10px rgb(148, 146, 194);
+
+    box-sizing: border-box;
+
+    position:sticky;
+
+    top: 40px;
+
+
+}
+
+.Lista_Indice{
+    margin-left: 2%;
+    margin-top: 10px;
+
+}
+
+.Titulo_Indice{
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+                     /*ASIDE 2*/
+.Aside_2{
+    float: right;
+
+    width: 200px;
+
+    background-color: rgb(243, 158, 158);
+
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+
+    padding-bottom: 1% ;
+
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 10px rgb(112, 55, 55);
+
+    box-sizing: border-box;
+
+    position:sticky;
+
+    top: 40px;
+}
+
+.img_aside_2{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10%;
+
+    position: relative;
+    left: 50px;
+
+    box-shadow: 2px 3px 10px rgb(94, 0, 0);
+}
+
+.Titulo_Documento{
+    margin-left: 4%;
+    margin-top: 4%;
+
+}
+
+.Subtitulo_Documento{
+    text-align: left;
+    text-transform: capitalize;
+    
+    margin-left: 6%;
+}
+
+/*ASIDE*/
+
+
+
+/* LEY PRINCIPAL ABARCADA*/
+.Contenedor_Texto_Ley_PRINCIPAL{
+    display: flex;
+}
+
+.Img_Ley_PRINCIPAL{
+    width: 300px;
+    height: 200px;
+
+    margin-left: 2%;
+    margin-right: 2%;
+
+    border-radius: 5%;
+
+    box-shadow: 1px 1px 5px;
+
+}
+
+.Texto_Ley_PRINCIPAL{
+
+    margin-left: 2%;
+
+}
+/* LEY ESI 26150*/
+
+
+/*CONTENIDO DE PAGINA*/
+#content{
+margin-top: 3%;
+
+    padding: 0 250px;
+
+    box-sizing: border-box;
+
+}
+
+
+@media (max-width: 500px){
+    #content{
+        width: 100%;
+    }
+}
+/*CONTENIDO DE PAGINA*/
+
+
+    /*FOOTER*/
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    min-height: auto;
+
+    background-color: rgb(255, 255, 255);
+
+}
+    /*FOOTER*/
